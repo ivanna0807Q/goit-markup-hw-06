@@ -716,18 +716,14 @@ background: rgba(0, 0, 0, 0.2);
 /**   Modal window form styles  **/
 
 .form-title {
-    top: 0;
-    right: 0;
-    width: 448px;
-    height: 23px;
     font-weight: 700;
     font-size: 20px;
     line-height: calc(23 / 20);
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-top: 12px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 12px;
     padding-left: 41px;
     padding-right: 39px;
     
@@ -735,20 +731,30 @@ background: rgba(0, 0, 0, 0.2);
 
 
 
-.form-line {
+.form-colum {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
 }
-.modal-form {
+
+.form-line{
+
+}
+.form {
     padding-top: 40px;
     padding-bottom: 12px;
     padding-left: 41px;
     padding-right: 39px;
 
 }
+.textarea {
+    resize: none;
+}
 
-
+.form-submit-button {
+    display: flex;
+    flex-direction: column;
+}
 
 /**** Porfolio Styles ****/
 .header-nav-link .header-nav-link.current
