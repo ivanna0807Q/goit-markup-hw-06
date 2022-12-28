@@ -432,36 +432,43 @@
 
      <div class="modal-content">
         <h4 class="form-title">Залиште свої дані, ми вам передзвонимо</h4>
-     <form action="">
+       <form action="">
+
        <form class="modal-form">
+
+      <div class="main-form">
         <div class="form-colum">
-        <label for="user-name"> Ім'я </label>
-        <input  id="user-name" type="name" name="name" />
+        <label for="user-name" class="form-label"> Ім'я </label>
+        <input  class="input" id="user-name" type="name" name="name" />
         </div>
 
         <div class="form-colum">
-        <label for="user-phone"> Телефон </label>
-        <input id="user-phone" type="user-phone" name="user-phone" />
+        <label for="user-phone" class="form-label"> Телефон </label>
+        <input class="input" id="user-phone" type="user-phone" name="user-phone" />
         </div>
 
         <div class="form-colum">
-        <label for="user-email"> Пошта </label>
-        <input id="user-email" type="email" name="email" />
+        <label for="user-email" class="form-label"> Пошта </label>
+        <input class="input" id="user-email" type="email" name="email" />
         </div>
 
         <div class="form-colum">
-        <label for="text"> Коментар </label>
-        <textarea name="feedback" id="text" cols="30" rows="10" input id="text" type="text" name="feedback" placeholder="Введіть текст" /> 
+        <label for="text" class="form-label"> Коментар </label>
+        <textarea name="feedback" id="text" cols="30" rows="10" input id="text" type="text" name="feedback" placeholder="Введіть текст"/> 
         </textarea>
-        
         </div>
 
-        
-        <input type="checkbox"  name="agree" value="reading" />
-        <label class="form-line"> <span> Погоджуюся з розсилкою та приймаю</span> <span>
+      </div>
+
+        <div>
+        <input class="input" type="checkbox"  name="agree" value="reading" />
+        <label class="form-line" class="form-label"> <span> Погоджуюся з розсилкою та приймаю</span> <span>
             Умови договору </span></label>
-        
-        <button type="submit" class="form-submit-button">Submit</button>
+        </div>
+
+        <div class="submit-button">
+        <button type="submit" class="form-submit-button">Відправити</button>
+        </div>
     </form>
 
 </form>
