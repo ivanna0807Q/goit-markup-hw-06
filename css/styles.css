@@ -646,6 +646,13 @@ a {
     background-color: #2196F3;
 }
 
+/* Subscription  container */
+
+.subscription {
+    display: flex;
+    align-items: baseline;
+}
+
 
 /* MODAL WINDOW */
 
@@ -735,19 +742,33 @@ background: rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-}
-
-.form-line{
 
 }
+
+.form-colum .input::placeholder {
+    width: 416px;
+    height: 96px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+
+}
+
 .form {
  margin-right: 0;
  margin-left: 0;
 }
+.form-label {
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    padding-bottom: 4px;
+}
 
 .main-form {
 
-    padding-top: 12px;
+    padding-top: 0px;
     padding-bottom: 20px;
     padding-left: 41px;
     padding-right: 39px;
@@ -804,12 +825,6 @@ text-align: center;
 
 }
 
-.submit-button {
-
-}
-
-
-
 .agreement-link {
     color: #188CE8;
     letter-spacing: 0.03em;
@@ -823,13 +838,10 @@ text-align: center;
 .text-before-agreement {
     color: #757575;
 }
-.input-checkbox{
-    color: #212121;
-}
 
-.input-checkbox:hover, 
-.input-checkbox:focus {
-    background: #2196F3;
+.input-checkbox input [type="checkbox"]{
+    width: 16px;
+    height: 15px;
 }
 
 .input {
