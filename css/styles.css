@@ -819,6 +819,7 @@ background: rgba(0, 0, 0, 0.2);
     margin-left: 20px;
 }
 
+
 .form {
  margin-right: 0;
  margin-left: 0;
@@ -829,6 +830,8 @@ background: rgba(0, 0, 0, 0.2);
     color: #757575;
     padding-bottom: 4px;
 }
+
+
 
 .main-form {
 
@@ -915,6 +918,13 @@ text-align: center;
     width: 448px;
     height: 40px;
 }
+ .form-input:hover,
+ .form-input:focus {
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 
 .input-coment {
     width: 448px;
