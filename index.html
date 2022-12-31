@@ -491,19 +491,25 @@
         </div>
 
         <div class="form-colum">
-        <label for="text" class="form-label"> Коментар </label>
-        <textarea name="feedback" id="text" cols="30" rows="8" input class="input-coment" id="text" type="text" name="feedback" placeholder="Введіть текст"/> 
-        </textarea>
+        <label for="Коментар" class="form-comement hov-for-input">
+            <span class="text-above">Коментар</span>
+        
+            <textarea id="Коментар" name="feedback" placeholder="Введіть текст"
+                class="size-input-feedback hov-for-input"></textarea>
+        </label>
         </div>
 
       </div>
 
-        <div class="checkbox-line">
-        <input class="checkbox" type="checkbox"  name="agree" value="reading" />
-        <label class="form-label"> <span class="text-before-agreement"> Погоджуюся з розсилкою та приймаю</span> <a  class="agreement-link" href="">
-             Умови договору </a></label>
-        </div>
-
+        <div class="policy-agreement-main">
+            <label for="agree" class="policy-form">
+                <input id="agree" class="form-checkbox" type="checkbox" name="agreement" value="agreement" checked />
+                <span class="policy-text">Погоджуюся
+                    з розсилкою та приймаю </span>
+                <a href="" class="policy-text-link"> Умови договору</a>
+            </label>
+    
+        
         <div class="submit-button">
         <button type="submit" class="form-submit-button">Відправити</button>
         </div>
